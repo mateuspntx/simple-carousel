@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Carousel</title>
+    <link href="src/styles.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="gallery">
+        <button id="carousel__prev" class="carousel__prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </button>
+        <!--
+          src="whatever default image here. maybe a loading"
+        -->
+        <img id="carousel__root" width="500px" />
+        <button id="carousel__next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="src/demo.js"></script>
+  </body>
+</html>
